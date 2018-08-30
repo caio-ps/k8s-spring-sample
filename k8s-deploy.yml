@@ -18,8 +18,8 @@ spec:
          labels:
             app: k8s-spring-sample
       spec:
-         containers: #define the container that will be deployed in the POD
+         containers:
          - name: k8s-spring-sample
-           image: caiopereirasousa/spring-boot-sample #Replace with the name of your image
+           image: caiopereirasousa/spring-boot-sample #You can replace with the name of your image or use mine
            ports:
            - containerPort: 8080
